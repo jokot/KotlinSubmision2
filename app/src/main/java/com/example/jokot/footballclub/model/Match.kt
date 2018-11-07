@@ -21,6 +21,8 @@ data class Match(
         @SerializedName("strDate")
         var dateMatch: String? = null,
 
+        @SerializedName("strTime")
+        var timeMatch:String? = null,
 
         @SerializedName("idHomeTeam")
         var homeId: String? = null,
